@@ -1,0 +1,58 @@
+#container{
+    width: 70%;
+    border: 1px solid black;
+    margin: auto;
+    height: 60vh;
+overflow-y: auto;
+margin-bottom: 30px;
+
+}
+.massage{
+    background-color: grey;
+    width: auto;
+    padding: 7px;
+    margin: 10px 7px;
+    border: 1px solid black;
+    border-radius: 12px;
+}
+
+
+#left{
+    margin-top: 5px;
+    float: left;
+    clear: both;
+    
+    
+}
+#right{
+   
+    float: right;
+    clear: both;
+    background-color: green;}
+
+
+
+#send{
+    /* border: 1px solid black; */
+    text-align: center;
+}
+#massageinp{
+    width: 65%;
+    height: 25px;
+    border: 1px solid black ;
+    border-radius: 5px;
+}
+#btn{
+    height: 27px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.user-join{
+    width: 35%;
+    
+    margin: auto;
+   
+text-align: center;
+margin-top: 30px;
+
+}
