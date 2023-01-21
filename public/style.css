@@ -91,10 +91,10 @@
     }
     
     #Logo{
-        width: 4%;
+        width: 8%;
     }
     #logo{
-        width: 100%;
+        width: 50%;
     }
     #q{
         width: 4%;
@@ -105,3 +105,41 @@
     #q>img{
         width: 90%;
     }
+    
+    
+    @media all and (min-width:200px) and (max-width:680px){
+    
+        #Logo{
+            width: 12%;
+        }
+        #logo{
+            width: 80%;
+        }
+        #q{
+            display: none;
+        }
+       #quantity{
+        display: none;
+       }
+    #nav{
+        height: 28px;
+    }
+    
+    #send{
+        width: 100%;
+    }
+    #massageinp{
+        width: 70%;
+    }
+    
+    #main-cont{
+        width: 95%;
+    }
+    #container{
+       
+        height: 75vh;
+    }
+    }
+    
+    
+    
