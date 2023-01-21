@@ -1,58 +1,107 @@
-#container{
-    width: 70%;
-    border: 1px solid black;
+#main-cont{
+    width: 60%;
     margin: auto;
-    height: 60vh;
-overflow-y: auto;
-margin-bottom: 30px;
-
-}
-.massage{
-    background-color: grey;
-    width: auto;
-    padding: 7px;
-    margin: 10px 7px;
     border: 1px solid black;
-    border-radius: 12px;
-}
-
-
-#left{
-    margin-top: 5px;
-    float: left;
-    clear: both;
+    border-radius: 10px;
+    margin-top: 100px;
+    padding: 10px;
+    background-color: rgb(53, 53, 141);
+    }
+    
+    #container{
+        width: 96%;
+        border: 1px solid black;
+        margin: auto;
+        height: 60vh;
+    overflow-y: auto;
+    margin-bottom: 12px;
+    background-color: white;
+    border-radius: 5px;
+    
+    }
+    .massage{
+        background-color: grey;
+        width: auto;
+        padding: 7px;
+        margin: 10px 7px;
+        border: 1px solid black;
+        border-radius: 12px;
+    }
     
     
-}
-#right{
-   
-    float: right;
-    clear: both;
-    background-color: green;}
-
-
-
-#send{
-    /* border: 1px solid black; */
+    #left{
+        margin-top: 5px;
+        float: left;
+        clear: both;
+        
+        
+    }
+    #right{
+       
+        float: right;
+        clear: both;
+        background-color: green;}
+    
+    
+    
+    #send{
+        /* border: 1px solid black; */
+        text-align: center;
+        width:90%
+         ;
+         margin: auto;
+    }
+    #massageinp{
+        width: 85%;
+        height: 25px;
+        border: 1px solid black ;
+        border-radius: 5px;
+    }
+    #btn{
+        /* width: 10%; */
+        height: 27px;
+        border: 1px solid black;
+        border-radius: 5px;
+    }
+    .user-join{
+        width: 35%;
+        
+        margin: auto;
+       
     text-align: center;
-}
-#massageinp{
-    width: 65%;
-    height: 25px;
-    border: 1px solid black ;
-    border-radius: 5px;
-}
-#btn{
-    height: 27px;
-    border: 1px solid black;
-    border-radius: 5px;
-}
-.user-join{
-    width: 35%;
+    margin-top: 30px;
     
-    margin: auto;
-   
-text-align: center;
-margin-top: 30px;
-
-}
+    }
+    
+    
+    
+    
+    
+    #nav{
+        width: 100%;
+        height: 35px;
+        border: 2px solid grey ;
+        border-radius: 5px;
+        margin-bottom: 5px;
+        display: flex;
+    align-items: center;
+    color: aliceblue;
+    /* justify-content: space-around; */
+    
+    }
+    
+    #Logo{
+        width: 4%;
+    }
+    #logo{
+        width: 100%;
+    }
+    #q{
+        width: 4%;
+        margin-left: 67%;
+        display: flex;
+    }
+    
+    #q>img{
+        width: 90%;
+    }

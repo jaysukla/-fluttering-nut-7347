@@ -30,13 +30,15 @@ socket.on('new-user-joined',(username)=>{
     users[socket.id]=username;
     // console.log(users)
 socket.broadcast.emit('user-connected',username)
-io.emit('user-list',users);
 
+io.emit('user-list',users);
+console.log(users)
 })
 
 socket.on('disconnect',()=>{
     socket.broadcast.emit('user-disconnected',user=users[socket.id]);
     delete users[socket.id];
+ 
     io.emit('user-list',users)
 })
 

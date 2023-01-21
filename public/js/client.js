@@ -32,8 +32,23 @@ console.log(name)
 
 
 socket.on('user-list',(users)=>{
-    console.log(users)
+  let count=0;
+  for(let key in users){
+    count++
+  }
+  document.querySelector("#quantity").innerHTML=count;
+  console.log(count)  
+
 })
+
+
+
+
+
+
+
+
+
 
 
  document.querySelector("#btn").addEventListener('click',SEND)
